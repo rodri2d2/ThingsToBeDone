@@ -1,4 +1,4 @@
-# ThingsToBeDone
+# Things To Be Done
 A simple ToDo List app. 
 The user could add a task to do and set its priority. However the task priority will change to conform the deadline to finish the task!
 
