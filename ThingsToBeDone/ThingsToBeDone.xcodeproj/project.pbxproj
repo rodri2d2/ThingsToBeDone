@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		5BE5648525C1C7AD00AE3477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5648425C1C7AD00AE3477 /* AppDelegate.swift */; };
 		5BE5648725C1C7AD00AE3477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5648625C1C7AD00AE3477 /* SceneDelegate.swift */; };
-		5BE5648925C1C7AD00AE3477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5648825C1C7AD00AE3477 /* ViewController.swift */; };
 		5BE5648E25C1C7AF00AE3477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE5648D25C1C7AF00AE3477 /* Assets.xcassets */; };
 		5BE5649125C1C7AF00AE3477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE5648F25C1C7AF00AE3477 /* LaunchScreen.storyboard */; };
 		5BE564A425C1C9D800AE3477 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE564A325C1C9D800AE3477 /* Coordinator.swift */; };
+		5BE564A825C1CB8900AE3477 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE564A725C1CB8900AE3477 /* AppCoordinator.swift */; };
+		5BE564B225C1CE7100AE3477 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE564B025C1CE7100AE3477 /* TaskListViewController.swift */; };
+		5BE564B325C1CE7100AE3477 /* TaskListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE564B125C1CE7100AE3477 /* TaskListViewController.xib */; };
+		5BE564BC25C1CF3500AE3477 /* ViewControllerPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE564BB25C1CF3500AE3477 /* ViewControllerPool.swift */; };
+		5BE564BF25C1D3EF00AE3477 /* Krontrollers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE564BE25C1D3EF00AE3477 /* Krontrollers.swift */; };
+		5BE564C425C1D57C00AE3477 /* TaskListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE564C325C1D57C00AE3477 /* TaskListCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BE5648125C1C7AC00AE3477 /* ThingsToBeDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThingsToBeDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE5648425C1C7AD00AE3477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BE5648625C1C7AD00AE3477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BE5648825C1C7AD00AE3477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BE5648D25C1C7AF00AE3477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE5649025C1C7AF00AE3477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BE5649225C1C7AF00AE3477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BE564A325C1C9D800AE3477 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5BE564A725C1CB8900AE3477 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5BE564B025C1CE7100AE3477 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		5BE564B125C1CE7100AE3477 /* TaskListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskListViewController.xib; sourceTree = "<group>"; };
+		5BE564BB25C1CF3500AE3477 /* ViewControllerPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPool.swift; sourceTree = "<group>"; };
+		5BE564BE25C1D3EF00AE3477 /* Krontrollers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Krontrollers.swift; sourceTree = "<group>"; };
+		5BE564C325C1D57C00AE3477 /* TaskListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B71DB6825C2C70A00D48752 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		5BE5647825C1C7AC00AE3477 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				5BE5649B25C1C81C00AE3477 /* App */,
+				5BE564AD25C1CE3A00AE3477 /* Tasks */,
 				5BE564A125C1C87F00AE3477 /* AppCoordinator */,
 				5BE564A025C1C86800AE3477 /* Resources */,
-				5BE5648825C1C7AD00AE3477 /* ViewController.swift */,
 			);
 			path = ThingsToBeDone;
 			sourceTree = "<group>";
@@ -94,9 +111,71 @@
 		5BE564A125C1C87F00AE3477 /* AppCoordinator */ = {
 			isa = PBXGroup;
 			children = (
+				5BE564AB25C1CD4600AE3477 /* Utils */,
 				5BE564A325C1C9D800AE3477 /* Coordinator.swift */,
+				5BE564A725C1CB8900AE3477 /* AppCoordinator.swift */,
 			);
 			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		5BE564AB25C1CD4600AE3477 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5BE564BB25C1CF3500AE3477 /* ViewControllerPool.swift */,
+				5BE564BE25C1D3EF00AE3477 /* Krontrollers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5BE564AD25C1CE3A00AE3477 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				5BE564AF25C1CE5600AE3477 /* TaskDetail */,
+				5BE564AE25C1CE4C00AE3477 /* TaskList */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		5BE564AE25C1CE4C00AE3477 /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				5B71DB6825C2C70A00D48752 /* Models */,
+				5BE564B725C1CE8200AE3477 /* Views */,
+				5BE564B625C1CE7600AE3477 /* Controllers */,
+				5BE564C225C1D55D00AE3477 /* Coordinator */,
+			);
+			path = TaskList;
+			sourceTree = "<group>";
+		};
+		5BE564AF25C1CE5600AE3477 /* TaskDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TaskDetail;
+			sourceTree = "<group>";
+		};
+		5BE564B625C1CE7600AE3477 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BE564B025C1CE7100AE3477 /* TaskListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5BE564B725C1CE8200AE3477 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BE564B125C1CE7100AE3477 /* TaskListViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BE564C225C1D55D00AE3477 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5BE564C325C1D57C00AE3477 /* TaskListCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BE5649125C1C7AF00AE3477 /* LaunchScreen.storyboard in Resources */,
+				5BE564B325C1CE7100AE3477 /* TaskListViewController.xib in Resources */,
 				5BE5648E25C1C7AF00AE3477 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,9 +249,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BE564A425C1C9D800AE3477 /* Coordinator.swift in Sources */,
-				5BE5648925C1C7AD00AE3477 /* ViewController.swift in Sources */,
+				5BE564A825C1CB8900AE3477 /* AppCoordinator.swift in Sources */,
+				5BE564BF25C1D3EF00AE3477 /* Krontrollers.swift in Sources */,
 				5BE5648525C1C7AD00AE3477 /* AppDelegate.swift in Sources */,
+				5BE564BC25C1CF3500AE3477 /* ViewControllerPool.swift in Sources */,
 				5BE5648725C1C7AD00AE3477 /* SceneDelegate.swift in Sources */,
+				5BE564B225C1CE7100AE3477 /* TaskListViewController.swift in Sources */,
+				5BE564C425C1D57C00AE3477 /* TaskListCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
